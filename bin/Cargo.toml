@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "fat-decode-cli"
+version = "0.1.0"
+
+[dependencies]
+argh = "0.1"
+fat-decode = { path = "../lib" }
